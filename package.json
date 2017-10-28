@@ -1,0 +1,16 @@
+{
+  "name": "vihaan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.4.0",
+    "read-last-lines": "^1.2.0",
+    "say": "^0.13.1"
+  }
+}

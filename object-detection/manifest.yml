@@ -1,0 +1,18 @@
+---
+declared-services:
+  my-text-to-speech:
+    label: text_to_speech
+    plan: standard
+  my-visual-recognition:
+    label: watson_vision_combined
+    plan: free
+
+applications:
+- services:
+  - my-text-to-speech
+  - my-visual-recognition
+  name: image-analysis
+  command: node app.js
+  path: .
+  memory: 512M
+  buildpack: https://github.com/jthomas/nodejs-buildpack.git
